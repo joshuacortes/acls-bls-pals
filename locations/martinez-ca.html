@@ -1,0 +1,498 @@
+<!DOCTYPE html><html><meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<head><title>ACLS Certification & Renewal in Martinez, CA</title><meta name="description" content="Small Group ACLS Training with Advanced Cardiac Response Training -  ACLS, Same Day, Last Minute, Remote Options - Martinez, CA ACLS Certification"></head>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+}
+.header-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: #fff;
+}
+
+.ticker {
+  background: #0B1423;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 16px;
+  text-align: center;
+}
+
+.ticker a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.ticker a:hover {
+  text-decoration: underline;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 42px;
+}
+
+/* ===== RIGHT SIDE (CTA + HAMBURGER) ===== */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Register Link (Mobile Default) */
+.register-link {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0B1423;
+}
+
+/* ===== HAMBURGER ===== */
+.hamburger {
+  width: 26px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.hamburger span {
+  height: 2px;
+  width: 100%;
+  background: #111;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
+/* ===== MOBILE MENU ===== */
+.mobile-menu {
+  background: #fff;
+  width: 100%;
+  display: none;
+  border-bottom: 1px solid #eee;
+}
+
+.mobile-menu.active {
+  display: block;
+}
+
+.mobile-menu a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: #111;
+  font-size: 16px;
+  border-top: 1px solid #f1f1f1;
+}
+
+.mobile-menu a:hover {
+  background: #f9f9f9;
+}
+
+/* ===== DESKTOP MENU ===== */
+.desktop-menu {
+  display: none;
+}
+
+.desktop-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.desktop-menu a {
+  text-decoration: none;
+  color: #111;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  min-width: 260px;
+  border: 1px solid #eee;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  display: none;
+  border-radius: 6px;
+  padding: 8px 0;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 18px;
+  font-size: 14px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ===== DESKTOP BREAKPOINT ===== */
+@media (min-width: 992px) {
+
+  .hamburger {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: none !important;
+  }
+
+  /* Register becomes button */
+  .register-link {
+    background: #0B1423;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.2s ease;
+  }
+
+  .register-link:hover {
+    opacity: 0.85;
+  }
+
+}
+</style><body>
+<div class="header-wrapper">
+  <div class="ticker">
+    <a href="/request-information">
+      Request Information: (714) 683-0680
+    </a>
+  </div>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="/">
+          <img src="https://i.postimg.cc/d3nDFNMt/bls-acls-pals-orange-county-certification.png" alt=" ACLS, BLS & PALS Certification & Renewal ">
+        </a>
+      </div>
+      <div class="desktop-menu">
+        <ul>
+          <li><a href="/bls--certification">BLS</a></li>
+          <li><a href="/acls--certification">ACLS</a></li>
+          <li><a href="/pals--certification">PALS</a></li>
+
+          <li class="dropdown">
+            <a>Renewals▾</a>
+            <div class="dropdown-content">
+              <a href="/bls--renewal-recertification">BLS Renewal</a>
+              <a href="/acls--renewal-recertification">ACLS Renewal</a>
+              <a href="/pals--renewal-recertification">PALS Renewal</a>
+            </div>
+          </li>
+
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- RIGHT SIDE -->
+      <div class="nav-right">
+        <a href="/register" class="register-link">Register Now</a>
+
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="/bls--certification">BLS Certification</a>
+    <a href="/acls--certification">ACLS Certification</a>
+    <a href="/pals--certification">PALS Certification</a>
+    <a href="/bls--renewal-recertification">BLS Renewal</a>
+    <a href="/acls--renewal-recertification">ACLS Renewal</a>
+    <a href="/pals--renewal-recertification">PALS Renewal</a>
+    <a href="/contact">Contact</a>
+  </div>
+
+</div>
+<script>
+function toggleMenu() {
+  document.getElementById("mobileMenu").classList.toggle("active");
+}
+</script><div style="height:80px;"></div>
+  <center> <div style="width:70%;text-align:left;">
+<h1>Last Minute ACLS Certification & Renewal in Martinez, CA</h1>
+<br><h2>Virtual Same Day Advanced Cardiovascular Life Support in Martinez, CA</h2><p>Sign up for Last Minute ACLS  courses in Martinez, CA and get certified quickly.</p>
+  <iframe data-tally-src="https://tally.so/embed/1Al4pl?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="681" frameborder="0" marginheight="0" marginwidth="0" title="BLS/ACLS/PALS"></iframe>
+<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+
+</div></center><style>
+/* ===== SECTION 2: TRUSTED LOGOS ===== */
+.trusted-section {
+  background: #ffffff;
+  padding: 60px 20px;
+}
+
+.trusted-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.trusted-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+/* Phrase Column */
+.trusted-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0B1423;
+  line-height: 1.4;
+}
+
+/* Logos */
+.trusted-logo img {
+  max-height: 60px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+
+.trusted-logo img:hover {
+  opacity: 1;
+}
+
+/* Desktop Layout */
+@media (min-width: 992px) {
+  .trusted-grid {
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    text-align: left;
+  }
+
+  .trusted-text {
+    font-size: 22px;
+  }
+
+  .trusted-logo {
+    text-align: center;
+  }
+}
+</style>
+<section class="trusted-section">
+  <div class="trusted-container">
+
+    <div class="trusted-grid">
+
+      <!-- Phrase -->
+      <div class="trusted-text">
+        Trusted by top healthcare organizations worldwide
+      </div>
+
+      <!-- Logo 1 -->
+      <div class="trusted-logo">
+        <img src="https://i.postimg.cc/6Q2KzWBZ/68c4c5dfe44a82aa4f07e133-Providence-Health-Plan-Partners-with-Collective-Health.png" alt="Providence Health">
+      </div>
+
+      <!-- Logo 2 -->
+      <div class="trusted-logo">
+        <img src="https://i.postimg.cc/yNgKn179/68c4c5dfceb6f36bf4bccd56-skyline-consultation.webp" alt="Skyline Consultation">
+      </div>
+
+      <!-- Logo 3 -->
+      <div class="trusted-logo">
+        <img src="https://i.postimg.cc/ZqBmjbJ8/68c4c5e451107bda61a4ced6-Providence-St-Joseph.png" alt="Providence St. Joseph">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+</body>
+<style>
+.footer {
+  background: #0B1423;
+  color: #fff;
+  padding: 70px 20px 40px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.footer a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  opacity: 0.85;
+  transition: 0.2s ease;
+}
+
+.footer a:hover {
+  opacity: 1;
+}
+
+.footer-contact p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  opacity: 0.85;
+}
+
+.footer-logo img {
+  height: 45px;
+  margin-bottom: 20px;
+}
+
+.footer-social {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  transition: 0.2s ease;
+}
+
+.footer-social img:hover {
+  transform: scale(1.05);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin-top: 50px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .footer-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+</style><footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-grid">
+
+      <!-- COLUMN 1 -->
+      <div>
+        <div class="footer-logo">
+          <a href="/">
+            <img src="https://i.postimg.cc/d3nDFNMt/bls-acls-pals-orange-county-certification.png" alt="Alacrity Life Support Services">
+          </a>
+        </div>
+
+        <h3>Alacrity Life Support Learning</h3>
+        <a href="/bls--certification">BLS Certification</a>
+        <a href="/acls--certification">ACLS Certification</a>
+        <a href="/pals--certification">PALS Certification</a>
+      </div>
+
+      <!-- COLUMN 2 -->
+      <div>
+        <h3>Alacrity Education</h3>
+        <a href="/bls--renewal-recertification">BLS Renewal</a>
+        <a href="/acls--renewal-recertification">ACLS Renewal</a>
+        <a href="/pals--renewal-recertification">PALS Renewal</a>
+      </div>
+
+      <!-- COLUMN 3 -->
+      <div>
+        <h3>Students</h3>
+        <a href="/register">Register Now</a>
+        <a href="/contact">Contact</a>
+        <a href="/request-information">Request Information</a>
+      </div>
+
+      <!-- COLUMN 4 -->
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+
+        <p>(562) 479-7444</p>
+        <p>(657) 239-6371</p>
+        <p><a href="mailto:josh@alacritylss.com">josh@alacritylss.com</a></p>
+        <p>631 S Brookhurst St. Ste 210<br>Anaheim, CA 92804</p>
+        <p>Walk-Ins Welcome Monday-Friday 8am-4pm</p>
+
+        <div class="footer-social">
+          <a href="https://www.instagram.com/alacritylifesupport/" target="_blank">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/instagram-white-icon.png" alt="Instagram">
+          </a>
+
+          <a href="mailto:Josh@alacritylss.com">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/location-travel-map/location-pointer-white-icon.png" alt="Email">
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 Alacrity Life Support Services. All Rights Reserved.
+    </div>
+
+  </div>
+</footer>
+
+</html> 
